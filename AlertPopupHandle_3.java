@@ -40,7 +40,7 @@ public class AlertPopupHandle_3 {
 		//steps to reproduce:
 		//1.driver.switchTo().alert();
 		//2.alert.getText();
-		//3.alert.accept();
+		//3.alert.accept(); or alert.dismiss();
 	}
 
 }
