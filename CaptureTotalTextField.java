@@ -27,7 +27,7 @@ public class CaptureTotalTextField {
 
 		for(int i=0; i<listInput.size(); i++) {
 			
-			listInput.get(i).sendKeys("Naveen");
+			listInput.get(i).sendKeys("Nina");
 		}
 		
 		
