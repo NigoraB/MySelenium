@@ -12,7 +12,7 @@ public class FileUploadPopup {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://cgi-lib.berkeley.edu/ex/fup.html");
-driver.findElement(By.name("upfile")).sendKeys("/Users/nigorabowles/Desktop/QA/test_pyramid.jpeg ");
+driver.findElement(By.name("upfile")).sendKeys("/Users/nigora/Desktop/QA/test_pyramid.jpeg ");
 	// input type = "file" name = "upfile"; you can not automate if you dont have type = "file"
 		
 		
